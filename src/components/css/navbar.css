@@ -1,0 +1,65 @@
+.navbar {
+  display: inline-block;
+  position: absolute;
+  background-color: #007bff;
+  padding: 1rem;
+  width:fit-content;
+  height: 100vh;
+  position: fixed;
+} 
+
+
+.navbar-nav {
+  display:inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+ 
+}
+
+.nav-item {
+  margin: 0 1rem;
+  margin-top: 60px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-size: 20px;
+   
+}
+
+.nav-link:hover {
+  color: #c0c0c0;
+}
+
+/* Add this CSS for the hamburger menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  order: -1; /* Move hamburger to the beginning for mobile */
+}
+
+  .navbar-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+   
+  
+    background-color: #007bff;
+  }
+
+  .navbar-nav.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: inline-block;
+  }
+
+
+
+
